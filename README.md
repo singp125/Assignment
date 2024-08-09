@@ -38,9 +38,9 @@ I have created automation tests for both UI and APIs for below scenarios:
    @Test Method - retrieveSpecificUser()
 
 # Framework used:
-IDE: Eclipse
-Testing Framework: TestNG + Selenium Webdriver (For UI Automation) + RestAssured (For API Automation)
-Language: Java
-Build Management: Maven
-Version Control: Git Hub
+1. IDE: Eclipse
+2. Testing Framework: TestNG + Selenium Webdriver (For UI Automation) + RestAssured (For API Automation)
+3. Language: Java
+4. Build Management: Maven
+5. Version Control: Git Hub
 
