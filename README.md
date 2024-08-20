@@ -71,7 +71,7 @@ I have created automation tests for both UI and APIs for below scenarios:
   
 5. Download Eclipse IDE - Go to : https://www.eclipse.org/downloads/ and select 'Download Pacakages' hyperlink -https://www.eclipse.org/downloads/packages/, and then install 'Eclipse IDE for Enterprise Java and Web Developers' either for windows or for macOS.
 6. Open Eclipse and setup a workspace and click Launch.
-7. Create a new Maven Project and setup all the dependencies and jar files in POM.xml file (please use the pom.xml file I have kept in this repository)
+7. Create a new Maven Project and setup all the dependencies and jar files in POM.xml file (please use the pom.xml - pom.xml file I have kept in this repository)
 8. Also download firefox browser driver , and replace the location of the firefox driver at this line of command (System.setProperty("webdriver.gecko.driver", "/Users/Pranshu/Downloads/geckodriver")) in all the test scripts before running the script.
 
 
