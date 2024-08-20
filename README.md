@@ -69,8 +69,9 @@ I have created automation tests for both UI and APIs for below scenarios:
    * Enter command - source ~/.zshrc
    * Enter command - echo $JAVA_HOME , this now show that you have set your java home environment variable
   
-5. Download Eclipse - Go to : https://www.eclipse.org/downloads/ and select 'Download Pacakages' hyperlink -https://www.eclipse.org/downloads/packages/, and then install 'Eclipse IDE for Enterprise Java and Web Developers' either for windows or for macOS
-6. 
+5. Download Eclipse IDE - Go to : https://www.eclipse.org/downloads/ and select 'Download Pacakages' hyperlink -https://www.eclipse.org/downloads/packages/, and then install 'Eclipse IDE for Enterprise Java and Web Developers' either for windows or for macOS.
+6. Open Eclipse and setup a workspace and click Launch.
+7. 
 
 
 
