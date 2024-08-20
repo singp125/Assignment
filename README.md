@@ -64,8 +64,7 @@ I have created automation tests for both UI and APIs for below scenarios:
    * Open Terminal and enter command - /usr/libexec/java_home -v, this will display the java version installed in your system, copy that path
    * enter command - vi ~/.zshrc
    * This file will now open in edit mode
-   * for editing a file in command line prompt press 'I' and then add "export JAVA_HOME=$(<add the path you copied for for java home in first 
-     step>)" line of code
+   * for editing a file in command line prompt press 'I' and then add "export JAVA_HOME=$(/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home)" line of code, in your case you need to replace the path from one you copied at first step
    * Hit Esc and then :wq and then Enter
    * Enter command - source ~/.zshrc
    * Enter command - echo $JAVA_HOME , this now show that you have set your java home environment variable
