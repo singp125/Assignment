@@ -1,6 +1,6 @@
 package Test;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -52,7 +52,7 @@ public class Registration
 		a.scrollByAmount(708, 705).build().perform();
 		
 		//explicit Wait, also for manually handling the reCaptcha
-		WebDriverWait w = new WebDriverWait(driver,30);
+		WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(30));
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.id("register")));
 		
 		//click on Register Button
@@ -103,7 +103,7 @@ public class Registration
 		a.scrollByAmount(708, 705).build().perform();
 		
 		//explicit Wait, also for manually handling the reCaptcha
-		WebDriverWait w = new WebDriverWait(driver,30);
+		WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(30));
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.id("register")));
 		
 		//click on Register Button
