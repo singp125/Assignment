@@ -44,3 +44,50 @@ I have created automation tests for both UI and APIs for below scenarios:
 4. Build Management: Maven
 5. Version Control: Git Hub
 
+# How To run Above test from Scratch:
+1. Install Java in your system and set Java Home Path in system variables in your system (steps to setup the java home path varies slightly in Windows and Mac).
+2. For Installing Java, Go to : https://www.oracle.com/java/technologies/downloads/ and download latest JDK version(you can download either for windows or for mac)
+3. Set Java Home path in your system variables - for Windows system, Go to C drive -> program files - > Java -> Open the JDK version you just installed -> select this one and this is the home path of your Java, So copy this home path of the JDK -> and from your search box, go to edit system environment variables -> select new button and add Java home here, and then paste that value path where the Java home is placed -> click Okay -> go back to your system variables -> Select Path and add new by pasting the path -> Click Okay
+4. If you are not on Windows and using macOS, then Set Java Home path in your system variables - for macOS system, Open Terminal and enter command - /usr/libexec/java_home -v -> this will display the java version installed in your system, copy that path -> enter command - vi ~/.zshrc -> this file will now open in edit mode -> for editing a file in command line prompt press 'I' and then add export JAVA_HOME=$(<add the path you copied for for java home in previous step>) line of code -> Hit Esc and then :wq and then Enter -> enter command - source ~/.zshrc -> enter command - echo $JAVA_HOME , this now show that you have set your java home environment variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+And also, you need to give the path to this bin directory
+
+because this is the path
+
+where there are a lot of executable files are there.
+
+So you need to set that as well.
+
+Again,  path.
+
+So in the system variables,
+
+you will see something called path.
+
+Select it, click on edit.
+
+So I already have previously, for another JDK version.
+
+In your case, you can add new and just add it.
+
+So in my case, I will just remove it
+
+and paste it with the new one with JDK 17, that's it.
+
